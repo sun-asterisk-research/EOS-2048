@@ -1,0 +1,66 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@liquidapps/dapp-client": "^2.0.2615-staging",
+    "antd": "^3.25.2",
+    "axios": "^0.19.0",
+    "big-integer": "^1.6.48",
+    "bignumber.js": "^9.0.0",
+    "bootstrap": "^4.3.1",
+    "bytebuffer": "^5.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "eos-transit": "^4.0.1",
+    "eos-transit-ledger-provider": "^4.0.2",
+    "eos-transit-lynx-provider": "^4.0.1",
+    "eos-transit-meetone-provider": "^4.0.1",
+    "eos-transit-scatter-provider": "^4.0.1",
+    "eos-transit-tokenpocket-provider": "^4.0.1",
+    "eosjs": "^20.0.0",
+    "eosjs-ecc": "^4.0.7",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-sonarjs": "^0.4.0",
+    "js-sha256": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-grid-layout": "^0.16.6",
+    "react-modal": "^3.5.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-toastify": "^5.4.1",
+    "reactstrap": "^8.1.1",
+    "redux": "^4.0.0",
+    "replace": "^1.1.0",
+    "semistandard": "^14.2.0",
+    "standard-ecies": "^1.0.0",
+    "text-encoding": "^0.7.0",
+    "tronweb": "^2.8.0",
+    "wallet-address-validator": "^0.2.4",
+    "web3": "^1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

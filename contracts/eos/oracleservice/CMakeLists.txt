@@ -1,0 +1,10 @@
+
+get_filename_component(PROJ_NAME "${CMAKE_CURRENT_SOURCE_DIR}" NAME )
+set(EOSIO_WASM_OLD_BEHAVIOR "Off")
+cmake_minimum_required(VERSION 3.5)
+project(${PROJ_NAME} VERSION 1.0.0)
+if(EOSIO_CDT_ROOT STREQUAL "" OR NOT EOSIO_CDT_ROOT)
+   find_package(eosio.cdt)
+endif()
+add_executable( ${PROJ_NAME} ${ARGN} ${PROJ_NAME} ${PROJ_NAME}.cpp )
+include_directories( ${PROJ_NAME} PUBLIC ./ )

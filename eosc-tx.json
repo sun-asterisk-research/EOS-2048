@@ -1,0 +1,1 @@
+{"expiration":"2019-11-21T03:01:25.000","ref_block_num":21697,"ref_block_prefix":1130533906,"max_net_usage_words":0,"max_cpu_usage_ms":0,"delay_sec":0,"context_free_actions":[],"actions":[{"account":"trinhtan2345","name":"login","authorization":[{"actor":"trinhtan2345","permission":"active"}],"data":"50C810D3E436DDCD"}],"transaction_extensions":[]}
