@@ -1,0 +1,41 @@
+{
+    "name": "oracle",
+    "port": 13112,
+    "contract": "oracleservic",
+    "prettyName": "LiquidOracle",
+    "stage": "Beta",
+    "version": "0.9",
+    "description": "Web/IBC/XIBC Oracle Service",
+    "commands": {
+        "geturi": {
+            "blocking": true,
+            "broadcast": true,
+            "request": {
+                "uri": "std::vector<char>"
+            },
+            "callback": {
+                "size": "uint32_t",
+                "uri": "std::vector<char>",
+                "data": "std::vector<char>"
+            },
+            "signal": {
+                "size": "uint32_t",
+                "uri": "std::vector<char>"
+            }
+        },
+         "orcclean": {
+            "blocking": false,
+            "request": {
+                "uri": "std::vector<char>"
+            },
+            "callback": {
+                "size": "uint32_t",
+                "uri": "std::vector<char>"
+            },
+            "signal": {
+                "size": "uint32_t",
+                "uri": "std::vector<char>"
+            }
+        }
+    }
+}
